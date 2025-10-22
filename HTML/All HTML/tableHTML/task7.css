@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+#header {
+  background: blue;
+  height: 100px;
+  font-size: 35px;
+  color: white;
+  width: 1000px;
+  text-align: center;
+  margin-left: 255PX;
+  margin-top: 20PX;
+
+}
+
+#LEFT {
+  overflow: hidden;
+  font-size: larger;
+  margin-left: 12PX;
+}
