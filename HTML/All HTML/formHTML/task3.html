@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task3</title>
+  </head>
+  <body>
+    <fieldset style="width: 500px">
+      <h1 style="text-align: center">Registration Form</h1>
+      <p style="text-align: center">
+        Of Course, all Submitted Information Is Kept In the Strictest Confidence
+        <br />
+        You always retain control of your information with D.W simpson & Co.
+        <br />
+        <big> <b>Our Service are always at no Cost to You </b></big>
+      </p>
+      <form action="#">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter Your Name" />
+        </div>
+        <br />
+        <div>
+          <label for="Addres">Address:</label>
+          <textarea
+            placeholder="Entre Your full Address"
+            name="Address"
+            id="Address"
+            rows="1"
+            cols="40"
+          >
+          </textarea>
+        </div>
+        <br />
+        <div>
+          <label for="city"> City:</label>
+          <input type="text" id="city" placeholder="Entre Your city" /> &nbsp;
+          <label for="state">State/Province:</label>
+          <input type="text" id="State" placeholder="Entre your State" />
+        </div>
+        <br />
+        <div>
+          <label for="zip">Zip </label>
+          <input
+            type="text"
+            id="Zip"
+            name="Zip"
+            placeholder=" entre zip code"
+            maxlength="6"
+          />
+        </div>
+
+        <br />
+        <div>
+          <label for="country">Country</label>
+          <input type=text"" name="country" id="country" placeholder="Entre your
+          city">
+        </div>
+        <br />
+        <div>
+          <label for="phone">Phone: (H)</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="\+91[0-10]{10}"
+            placeholder="+91 0113553352"
+            required
+            title="entre your 10 digit number "
+          />
+          &nbsp;
+          <label for="fax">Fax:</label>
+          <input type="text" name="Fax" />
+        </div>
+        <br />
+        <div>
+          <label for="phone">Phone: (W)</label>
+          <input type="tel" name"Phone" placeholder="+91 0177231156"> (If able
+          to speak frely)
+        </div>
+        <br />
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="Email" placeholder="Email" />
+        </div>
+        <br />
+        <div>
+          <label for="company">Company Name:</label>
+          <input
+            type="text"
+            id="company"
+            name="company "
+            placeholder="Company Name"
+          />
+          &nbsp;&nbsp;(Optional)
+        </div>
+        <br />
+        <div>
+          <label for="region">Desired Region</label>
+          &nbsp;
+          <select name="region" id="region">
+            <option value="Other">&nbsp;Other&nbsp;</option>
+            <option value="east">east</option>
+            <option value="north">north</option>
+            <option value="west">West</option></select
+          >&nbsp <label for="Other">Other:</label>&nbsp;
+          <input type="text" id="Other" placeholder="Other" />
+        </div>
+        <br />
+        <div>
+          <label for="student"> <b>Professional designations earned </b></label>
+          <br />
+          <input type="checkbox" name="student" /> College Student
+          <input type="checkbox" name="student" /> Actuarial Student
+          <input type="checkbox" name="student" />ACAS
+          <input type="checkbox" name="student" />FCAS
+          <input type="checkbox" name="student" />ASA
+          <br />
+          <input type="checkbox" name="student" />FSA
+          <input type="checkbox" name="student" />EA
+          <input type="checkbox" name="student" /> CFA
+          <input type="checkbox" name="student" /> MBA
+          <input type="checkbox" name="student" /> MAAA
+          <input type="checkbox" name="student" /> FIA
+          <input type="checkbox" name="student" />FCIA
+          <br />
+          <input type="checkbox" name="student" />FIAA
+          <input type="checkbox" name="student" />Financial Engineer
+          <input type="checkbox" name="student" />M.S
+          <input type="checkbox" name="student" />Ph.D
+          <input type="checkbox" name="student" />Data Mining
+          <input type="checkbox" name="student" />Quant
+        </div>
+        <br />
+        <div>
+          <label for="Other">Other <br />Designations:</label>
+          <input type="text" />
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
